@@ -1,0 +1,33 @@
+
+
+.alert-container{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    
+      
+}
+
+.alert{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    border-radius: 5px;
+    border: 1px solid orangered;
+    height:80px;
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.alert-danger{
+    color:red;
+
+}
+
+.alert-success{
+    color: green;
+}
+
+.alert-custom{
+    color:black
+}
